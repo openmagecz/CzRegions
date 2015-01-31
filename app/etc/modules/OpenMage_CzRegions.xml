@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <OpenMage_CzRegions>
+      <active>true</active>
+      <codePool>local</codePool>
+    </OpenMage_CzRegions>
+  </modules>
+</config>

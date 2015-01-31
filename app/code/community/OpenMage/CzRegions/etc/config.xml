@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <OpenMage_CzRegions>
+      <version>0.0.1</version>
+    </OpenMage_CzRegions>
+  </modules>
+    <global>
+      <resources>
+          <czregions_setup>
+            <setup>
+              <module>Roidzilla_CustomCategoryAttributeH1</module>
+              <class>Mage_Eav_Model_Entity_Setup</class>
+            </setup>
+            <connection>
+              <use>default_setup</use>
+            </connection>
+          </czregions_setup>
+      </resources>
+    </global>
+</config>
