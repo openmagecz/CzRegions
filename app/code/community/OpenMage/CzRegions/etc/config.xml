@@ -9,7 +9,7 @@
       <resources>
           <czregions_setup>
             <setup>
-              <module>Roidzilla_CustomCategoryAttributeH1</module>
+              <module>OpenMage_CzRegions</module>
               <class>Mage_Eav_Model_Entity_Setup</class>
             </setup>
             <connection>
