@@ -2,6 +2,7 @@
 $installer = $this;
 $installer->startSetup();
 $installer->run("
+DROP PROCEDURE IF EXISTS CzRegions;
 DELIMITER //
 CREATE PROCEDURE CzRegions()
 BEGIN
@@ -38,6 +39,9 @@ END;
 //
 
 CALL CzRegions()//
+
+DROP PROCEDURE CzRegions;
+
 ");
 $installer->endSetup();
 ?>
