@@ -24,7 +24,7 @@ BEGIN
 			
 			SET @region_code = SUBSTRING(@region_codes, 1, LOCATE(',',@region_codes) - 1);
 			SET @region_name = SUBSTRING(@region_names, 1, LOCATE(',',@region_names) - 1);
-        	SET @region_codes = SUBSTRING(@region_codes, LOCATE(',', @region_codes) + 1);
+        		SET @region_codes = SUBSTRING(@region_codes, LOCATE(',', @region_codes) + 1);
 			SET @region_names = SUBSTRING(@region_names, LOCATE(',', @region_names) + 1);
 				
 			INSERT INTO {$this->getTable('directory_country_region')} (`region_id`,`country_id`,`code`,`default_name`) VALUES (NULL,@country_code,@region_code,@region_name);
