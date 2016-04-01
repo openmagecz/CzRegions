@@ -3,7 +3,7 @@
   <modules>
     <OpenMage_CzRegions>
       <active>true</active>
-      <codePool>community</codePool>
+      <codePool>local</codePool>
     </OpenMage_CzRegions>
   </modules>
 </config>
