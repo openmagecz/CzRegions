@@ -3,7 +3,7 @@
 
 This **Magento module** adds all **regions of Czech Republic** to the optional customer address attribute region, which is used often for US based customers and corresponding US states.
 
-NOTE: *You need to have MySQL privileges for creating and calling procedures/functions for DB user used for Magento.*
+NOTE: *You need to have MySQL privileges for creating and calling procedures/functions for your database user used for Magento.*
 
 ![alt text](http://www.openmage.cz/github/images/CzRegions.png "Magento module CzRegions - kraje České republiky")
 
