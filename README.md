@@ -7,4 +7,4 @@ NOTE: *You need to have MySQL privileges for creating and calling procedures/fun
 
 ![alt text](http://www.openmage.cz/github/images/CzRegions.png "Magento module CzRegions - kraje České republiky")
 
-Support and further development of this module is available from Stanislav Puffler aka [Open Mage](https://www.openmage.cz).
+Support and further development of this module is available from Stanislav Puffler - [Open Mage](https://www.openmage.cz).
